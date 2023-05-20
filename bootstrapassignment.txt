@@ -1,0 +1,44 @@
+MODULE: 6 (Bootstrap Basic & Advance)
+(1)What are the advantages of Bootstrap?
+	Easy to use
+	Responsive features
+	Mobile-first approach
+	Browser compatibility
+(2)What is a Bootstrap container & how does it work?
+	Containers are a fundamental building block of bootstrapthat contain, pad & align your content within a given device or viewport.
+	Containers are the most basic layout element in Bootstrap & required when using our default grid system.
+	There are 3 types of container classes available in Bootstrap
+(1)default container(container)
+(2)Responsive container(along with sm,md,lg,xl,xxl)
+(3)Fluid-Container(container-fluid)
+(3)What are the default Bootstrap text settings?
+	Default font-size : 16px & it’s line-height : 1.5
+	Default font-family :Helvetica, Arial, sans-serif
+	All <p> elements have margin-top:0 & margin-bottom:1rem
+(4)What do you know about the Bootstrap Grid system?
+	Bootstrap grid system uses a series of containers, rows & columns to layout and align content.
+(5)What is the difference between Bootstrap 4& Bootstrap 5?
+BASIS OF	BOOTSTRAP 4	BOOTSTRAP 5
+Grid System	It has 5 tier (xs, sm, md, lg, xl).	It has 6 tier (xs, sm, md, lg, xl, xxl).
+Color	It has limited colors.	Extra colors added with the looks, A card improved color palette. there are various shades available to choose.
+Jquery	It has jquery and all related plugins.	Jquery is removed and switched to vanilla JS with some working plugins
+Internet Explorer	Bootstrap 4 supports both IE 10 and 11.	Bootstrap 5 doesn’t support IE 10 and 11.
+Form elements	Radio buttons, checkboxes have different look in different OS and browsers. The form uses whatever default browsers provide.	The look of form elements will not change, on different OS or browser. The forms can be customized and form controls can be added, they would not depend on browser. 
+Utilities API	We cannot modify utilities in bootstrap 4	Bootstrap 5 gave freedom to modify and also create our own utility
+Gutter	We use .glutter with fontsize in px	We use .g* with fontsize in re
+Navbar	We have inline-block property and we will get white dropdown as default for dropdown-menu-dark class.	Inline-block property is removed and we will get black dropdown as default for dropdown-menu-dark class.
+
+(6)What is a button group & what is the class for basic button group?
+	Button groups allow multiple buttons to be stacked together on a single line.
+	This class is used for a basic button group.wrap a series of buttons with class .btn& .btn-group
+	<div class=”btn-group”></div>
+(7)How can you use Bootstrap to make thumbnails?
+	A thumbnail is a small image that represent a larger image (when clicked on) & is often recognized with border around it.
+	Use an <img> element & wrap an <a> elements around it.
+(8)In Bootstrap 4, what is flexbox?
+	Flexbox is used to control the layout & alignment specificationof bootstrap 4 components.This box makes it easier to design flexible responsive layout structureswithout using float or positioning attributes.
+(9)How can one create an alert in Bootstrap?
+	Alert created with .alert class, followed by one of four contextual classes .alert-success, .alert-info,.alert-warning & .alert-danger.
+(10)What is a Bootstrap card & how would you create one?
+	A card is a flexible & extensible content container.it includes options for headers & footers, a vide variety of content, contextual background colors & powerful display options.
+	It replaces the use of panels,wells& thumbnail. All of it can be used in a single container called card.
